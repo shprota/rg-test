@@ -1,0 +1,9 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "Test assignment solution",
+  "main": "tree.js",
+  "author": "",
+  "license": "ISC",
+  "type": "module"
+}

@@ -38,8 +38,10 @@ function flatten2(arr) {
 
 const a = [ 1, [ 2, [ 3, [8, 9, [11, 23, []], []] ] ], 4 ] ;
 const b = [[[[[1]]], 2]];
+
 console.log(flatten(a));
 console.log(flatten2(a));
 console.log(flatten(null));
+console.log(flatten2(null));
+console.log(flatten(22));
 console.log(flatten2(22));
-console.log(a.flat(100));
